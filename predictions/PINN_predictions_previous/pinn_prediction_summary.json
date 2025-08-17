@@ -1,0 +1,1607 @@
+{
+  "args": {
+    "predictions_dir": "C:\\Users\\steve\\Desktop\\새 폴더\\PINN4SOH\\predictions\\LSTM_predictions\\",
+    "pinn_model_dir": "C:\\Users\\steve\\Desktop\\새 폴더\\PINN4SOH\\pretrained model",
+    "output_dir": "C:\\Users\\steve\\Desktop\\새 폴더\\PINN4SOH\\predictions\\PINN_predictions\\",
+    "batch_size": 512,
+    "device": "cuda"
+  },
+  "dataset_model_mapping": {
+    "Dataset_1_NCA_battery": "model_TJU_0.pth",
+    "Dataset_2_NCM_battery": "model_TJU_1.pth",
+    "Dataset_3_NCM_NCA_battery": "model_TJU_2.pth"
+  },
+  "feature_columns": [
+    "voltage mean",
+    "voltage std",
+    "voltage kurtosis",
+    "voltage skewness",
+    "CC Q",
+    "CC charge time",
+    "voltage slope",
+    "voltage entropy",
+    "current mean",
+    "current std",
+    "current kurtosis",
+    "current skewness",
+    "CV Q",
+    "CV charge time",
+    "current slope",
+    "current entropy"
+  ],
+  "total_files": 130,
+  "overall_avg_metrics": {
+    "MAE": 0.17274686000668085,
+    "MAPE": 0.7501392275668107,
+    "MSE": 0.07359861003306623,
+    "RMSE": 0.2369922159956052
+  },
+  "dataset_results": {
+    "Dataset_1_NCA_battery": [
+      {
+        "filename": "pred_CY25-025_1-#1.csv",
+        "num_cycles": 144,
+        "initial_capacity": 3.246857740573049,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.07740361988544464,
+          "MAPE": 0.08673766255378723,
+          "MSE": 0.012505020946264267,
+          "RMSE": 0.1118258535861969
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#2.csv",
+        "num_cycles": 71,
+        "initial_capacity": 3.2690070952217627,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11767720431089401,
+          "MAPE": 0.14181041717529297,
+          "MSE": 0.022619932889938354,
+          "RMSE": 0.15039923787117004
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#3.csv",
+        "num_cycles": 91,
+        "initial_capacity": 3.2034487235527886,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10992276668548584,
+          "MAPE": 0.11494222283363342,
+          "MSE": 0.02332358807325363,
+          "RMSE": 0.1527206152677536
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#4.csv",
+        "num_cycles": 100,
+        "initial_capacity": 3.1826940958852807,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11676853150129318,
+          "MAPE": 0.13391731679439545,
+          "MSE": 0.022649502381682396,
+          "RMSE": 0.15049751102924347
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#5.csv",
+        "num_cycles": 102,
+        "initial_capacity": 3.174007298773195,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09144797921180725,
+          "MAPE": 0.10100606083869934,
+          "MSE": 0.018316537141799927,
+          "RMSE": 0.13533860445022583
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#6.csv",
+        "num_cycles": 72,
+        "initial_capacity": 3.229038561143665,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11024694889783859,
+          "MAPE": 0.1191769689321518,
+          "MSE": 0.021005388349294662,
+          "RMSE": 0.144932359457016
+        }
+      },
+      {
+        "filename": "pred_CY25-025_1-#7.csv",
+        "num_cycles": 74,
+        "initial_capacity": 3.235056561228164,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11591637134552002,
+          "MAPE": 0.12295248359441757,
+          "MSE": 0.02581857517361641,
+          "RMSE": 0.1606815904378891
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#1.csv",
+        "num_cycles": 42,
+        "initial_capacity": 3.239497770822481,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08304337412118912,
+          "MAPE": 0.10201038420200348,
+          "MSE": 0.009875589050352573,
+          "RMSE": 0.09937600046396255
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#10.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.263843805721843,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.12378440052270889,
+          "MAPE": 0.12884727120399475,
+          "MSE": 0.031166577711701393,
+          "RMSE": 0.1765405833721161
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#11.csv",
+        "num_cycles": 45,
+        "initial_capacity": 3.233995198733046,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.14426788687705994,
+          "MAPE": 0.17312295734882355,
+          "MSE": 0.029140133410692215,
+          "RMSE": 0.17070481181144714
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#12.csv",
+        "num_cycles": 45,
+        "initial_capacity": 3.2397055110957864,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11664821952581406,
+          "MAPE": 0.13882391154766083,
+          "MSE": 0.020652832463383675,
+          "RMSE": 0.1437109410762787
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#13.csv",
+        "num_cycles": 54,
+        "initial_capacity": 3.2530794551060667,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11578525602817535,
+          "MAPE": 0.11792316287755966,
+          "MSE": 0.028953082859516144,
+          "RMSE": 0.1701560616493225
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#14.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.260371659439293,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08321242034435272,
+          "MAPE": 0.10900947451591492,
+          "MSE": 0.010500547476112843,
+          "RMSE": 0.10247217863798141
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#15.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.255968085512966,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.1086801216006279,
+          "MAPE": 0.1221022754907608,
+          "MSE": 0.021047541871666908,
+          "RMSE": 0.14507770538330078
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#16.csv",
+        "num_cycles": 47,
+        "initial_capacity": 3.234844109743793,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.13121789693832397,
+          "MAPE": 0.13693423569202423,
+          "MSE": 0.02918977104127407,
+          "RMSE": 0.17085014283657074
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#17.csv",
+        "num_cycles": 54,
+        "initial_capacity": 3.2185017020681426,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.0916060358285904,
+          "MAPE": 0.10616780817508698,
+          "MSE": 0.012889530509710312,
+          "RMSE": 0.11353206634521484
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#18.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.253576918670924,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.12838558852672577,
+          "MAPE": 0.16374634206295013,
+          "MSE": 0.02456148900091648,
+          "RMSE": 0.1567210555076599
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#19.csv",
+        "num_cycles": 45,
+        "initial_capacity": 3.247025715846084,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09189362078905106,
+          "MAPE": 0.11455315351486206,
+          "MSE": 0.012287547811865807,
+          "RMSE": 0.11084920912981033
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#2.csv",
+        "num_cycles": 50,
+        "initial_capacity": 3.240290634185656,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10446293652057648,
+          "MAPE": 0.13173772394657135,
+          "MSE": 0.01775951497256756,
+          "RMSE": 0.13326482474803925
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#3.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.23791808243788,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11689145863056183,
+          "MAPE": 0.1298847794532776,
+          "MSE": 0.023280559107661247,
+          "RMSE": 0.1525796800851822
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#4.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.239448003819175,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11117923259735107,
+          "MAPE": 0.11777611076831818,
+          "MSE": 0.025827722623944283,
+          "RMSE": 0.16071005165576935
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#5.csv",
+        "num_cycles": 56,
+        "initial_capacity": 3.233215403532984,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10468395054340363,
+          "MAPE": 0.12408745288848877,
+          "MSE": 0.017144298180937767,
+          "RMSE": 0.13093623518943787
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#6.csv",
+        "num_cycles": 51,
+        "initial_capacity": 3.249599257408857,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.12813133001327515,
+          "MAPE": 0.1598692685365677,
+          "MSE": 0.02753240428864956,
+          "RMSE": 0.165928915143013
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#7.csv",
+        "num_cycles": 48,
+        "initial_capacity": 3.249584704094646,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11302196979522705,
+          "MAPE": 0.16352270543575287,
+          "MSE": 0.02153812348842621,
+          "RMSE": 0.14675872027873993
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#8.csv",
+        "num_cycles": 33,
+        "initial_capacity": 3.286452231038274,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.14272235333919525,
+          "MAPE": 0.19259247183799744,
+          "MSE": 0.025089336559176445,
+          "RMSE": 0.1583961397409439
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#9.csv",
+        "num_cycles": 32,
+        "initial_capacity": 3.272362637079264,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.13480189442634583,
+          "MAPE": 0.16768714785575867,
+          "MSE": 0.022887088358402252,
+          "RMSE": 0.15128479897975922
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#1.csv",
+        "num_cycles": 11,
+        "initial_capacity": 3.141952749957681,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.12833209335803986,
+          "MAPE": 0.12356463074684143,
+          "MSE": 0.029542190954089165,
+          "RMSE": 0.1718784123659134
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#2.csv",
+        "num_cycles": 11,
+        "initial_capacity": 3.164928438473445,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10642398148775101,
+          "MAPE": 0.15267916023731232,
+          "MSE": 0.016819270327687263,
+          "RMSE": 0.12968912720680237
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#3.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.094878632311332,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.16922329366207123,
+          "MAPE": 0.2383251190185547,
+          "MSE": 0.033507008105516434,
+          "RMSE": 0.18304920196533203
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#4.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.076494122164036,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08816109597682953,
+          "MAPE": 0.10349682718515396,
+          "MSE": 0.01009767409414053,
+          "RMSE": 0.10048718005418777
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#5.csv",
+        "num_cycles": 10,
+        "initial_capacity": 3.105163258766276,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09406907856464386,
+          "MAPE": 0.12345914542675018,
+          "MSE": 0.012269077822566032,
+          "RMSE": 0.11076586693525314
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#6.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.084674335881076,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11921421438455582,
+          "MAPE": 0.12671025097370148,
+          "MSE": 0.022198984399437904,
+          "RMSE": 0.14899323880672455
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#7.csv",
+        "num_cycles": 10,
+        "initial_capacity": 3.166590426218128,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.14164316654205322,
+          "MAPE": 0.14352571964263916,
+          "MSE": 0.028268462046980858,
+          "RMSE": 0.16813227534294128
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#8.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.1265551773681683,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.1930944323539734,
+          "MAPE": 0.32774287462234497,
+          "MSE": 0.045248620212078094,
+          "RMSE": 0.2127172350883484
+        }
+      },
+      {
+        "filename": "pred_CY25-1_1-#9.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.1342748559768325,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.0959417074918747,
+          "MAPE": 0.12089744955301285,
+          "MSE": 0.013753908686339855,
+          "RMSE": 0.11727705597877502
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#1.csv",
+        "num_cycles": 159,
+        "initial_capacity": 3.296239342702364,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11048944294452667,
+          "MAPE": 0.13350094854831696,
+          "MSE": 0.019912047311663628,
+          "RMSE": 0.14111004769802094
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#2.csv",
+        "num_cycles": 156,
+        "initial_capacity": 3.2958403746253806,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10149041563272476,
+          "MAPE": 0.13152354955673218,
+          "MSE": 0.015946928411722183,
+          "RMSE": 0.12628114223480225
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#3.csv",
+        "num_cycles": 9,
+        "initial_capacity": 3.316748504201796,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.22227472066879272,
+          "MAPE": 0.31600645184516907,
+          "MSE": 0.05537376552820206,
+          "RMSE": 0.23531630635261536
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#1.csv",
+        "num_cycles": 211,
+        "initial_capacity": 3.3487704491404884,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08179226517677307,
+          "MAPE": 0.09605250507593155,
+          "MSE": 0.012083369307219982,
+          "RMSE": 0.10992438346147537
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#10.csv",
+        "num_cycles": 117,
+        "initial_capacity": 3.334903213017035,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.12596744298934937,
+          "MAPE": 0.1589449644088745,
+          "MSE": 0.026349470019340515,
+          "RMSE": 0.1623252034187317
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#11.csv",
+        "num_cycles": 195,
+        "initial_capacity": 3.3364914913509134,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09044837206602097,
+          "MAPE": 0.10451476275920868,
+          "MSE": 0.014826891012489796,
+          "RMSE": 0.12176572531461716
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#12.csv",
+        "num_cycles": 239,
+        "initial_capacity": 3.346682512832439,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08683529496192932,
+          "MAPE": 0.1115972027182579,
+          "MSE": 0.011396851390600204,
+          "RMSE": 0.10675603896379471
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#13.csv",
+        "num_cycles": 213,
+        "initial_capacity": 3.344434686921792,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09353818744421005,
+          "MAPE": 0.11811532825231552,
+          "MSE": 0.013882980681955814,
+          "RMSE": 0.11782605946063995
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#14.csv",
+        "num_cycles": 216,
+        "initial_capacity": 3.334085762030569,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08151546865701675,
+          "MAPE": 0.10388015955686569,
+          "MSE": 0.011171253398060799,
+          "RMSE": 0.10569415241479874
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#15.csv",
+        "num_cycles": 141,
+        "initial_capacity": 3.234852955620117,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.11403094977140427,
+          "MAPE": 0.14206387102603912,
+          "MSE": 0.021451206877827644,
+          "RMSE": 0.1464623063802719
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#16.csv",
+        "num_cycles": 171,
+        "initial_capacity": 3.231369357979193,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.0874328464269638,
+          "MAPE": 0.10981076955795288,
+          "MSE": 0.014102005399763584,
+          "RMSE": 0.11875186115503311
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#17.csv",
+        "num_cycles": 151,
+        "initial_capacity": 3.215114554601776,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.10289650410413742,
+          "MAPE": 0.12132687866687775,
+          "MSE": 0.02012120559811592,
+          "RMSE": 0.14184923470020294
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#18.csv",
+        "num_cycles": 171,
+        "initial_capacity": 3.262142118670516,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09348160773515701,
+          "MAPE": 0.11344123631715775,
+          "MSE": 0.01460951566696167,
+          "RMSE": 0.12086983025074005
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#19.csv",
+        "num_cycles": 198,
+        "initial_capacity": 3.239608456273736,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09652393311262131,
+          "MAPE": 0.1119198277592659,
+          "MSE": 0.018453577533364296,
+          "RMSE": 0.13584394752979279
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#2.csv",
+        "num_cycles": 208,
+        "initial_capacity": 3.348209939387752,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08434294909238815,
+          "MAPE": 0.09790249913930893,
+          "MSE": 0.013030244037508965,
+          "RMSE": 0.11415009200572968
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#20.csv",
+        "num_cycles": 211,
+        "initial_capacity": 3.251549124133168,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08344856649637222,
+          "MAPE": 0.10205855220556259,
+          "MSE": 0.011028856039047241,
+          "RMSE": 0.10501836240291595
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#21.csv",
+        "num_cycles": 183,
+        "initial_capacity": 3.236526295496014,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.0877532884478569,
+          "MAPE": 0.10770175606012344,
+          "MSE": 0.013858644291758537,
+          "RMSE": 0.11772274225950241
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#22.csv",
+        "num_cycles": 166,
+        "initial_capacity": 3.233179199541288,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09545262157917023,
+          "MAPE": 0.11288009583950043,
+          "MSE": 0.016924099996685982,
+          "RMSE": 0.13009266555309296
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#23.csv",
+        "num_cycles": 199,
+        "initial_capacity": 3.272599415458034,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.0882825031876564,
+          "MAPE": 0.1075001060962677,
+          "MSE": 0.012525561265647411,
+          "RMSE": 0.1119176521897316
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#24.csv",
+        "num_cycles": 208,
+        "initial_capacity": 3.247765706230333,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08162082731723785,
+          "MAPE": 0.10188572108745575,
+          "MSE": 0.012006058357656002,
+          "RMSE": 0.1095721572637558
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#25.csv",
+        "num_cycles": 214,
+        "initial_capacity": 3.256476496056723,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08287607878446579,
+          "MAPE": 0.10135772079229355,
+          "MSE": 0.011311039328575134,
+          "RMSE": 0.10635337233543396
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#26.csv",
+        "num_cycles": 205,
+        "initial_capacity": 3.26071733390381,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08625867962837219,
+          "MAPE": 0.10620278865098953,
+          "MSE": 0.012750981375575066,
+          "RMSE": 0.11292024701833725
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#27.csv",
+        "num_cycles": 187,
+        "initial_capacity": 3.238263910362547,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09051008522510529,
+          "MAPE": 0.1077125072479248,
+          "MSE": 0.015134026296436787,
+          "RMSE": 0.12302043288946152
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#28.csv",
+        "num_cycles": 207,
+        "initial_capacity": 3.2616456304759414,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.08683043718338013,
+          "MAPE": 0.10789327323436737,
+          "MSE": 0.012101302854716778,
+          "RMSE": 0.1100059226155281
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#3.csv",
+        "num_cycles": 58,
+        "initial_capacity": 3.3260645119293906,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.2039581835269928,
+          "MAPE": 0.2366786003112793,
+          "MSE": 0.056862153112888336,
+          "RMSE": 0.23845785856246948
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#4.csv",
+        "num_cycles": 59,
+        "initial_capacity": 3.322088903664824,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.179506316781044,
+          "MAPE": 0.24027778208255768,
+          "MSE": 0.04798579961061478,
+          "RMSE": 0.2190566062927246
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#5.csv",
+        "num_cycles": 59,
+        "initial_capacity": 3.341949738246666,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.1028023287653923,
+          "MAPE": 0.11560885608196259,
+          "MSE": 0.014181025326251984,
+          "RMSE": 0.11908411234617233
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#6.csv",
+        "num_cycles": 59,
+        "initial_capacity": 3.347930372180853,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.06561724096536636,
+          "MAPE": 0.07708613574504852,
+          "MSE": 0.0063051325269043446,
+          "RMSE": 0.07940486818552017
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#7.csv",
+        "num_cycles": 120,
+        "initial_capacity": 3.33459914408176,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.19230996072292328,
+          "MAPE": 0.2788105607032776,
+          "MSE": 0.04900721088051796,
+          "RMSE": 0.2213757187128067
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#8.csv",
+        "num_cycles": 114,
+        "initial_capacity": 3.278089827530517,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.09799067676067352,
+          "MAPE": 0.1107967346906662,
+          "MSE": 0.018292270600795746,
+          "RMSE": 0.13524891436100006
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#9.csv",
+        "num_cycles": 120,
+        "initial_capacity": 3.348480552018363,
+        "pinn_model": "model_TJU_0.pth",
+        "metrics": {
+          "MAE": 0.15513178706169128,
+          "MAPE": 0.21865138411521912,
+          "MSE": 0.03456240892410278,
+          "RMSE": 0.1859096735715866
+        }
+      }
+    ],
+    "Dataset_2_NCM_battery": [
+      {
+        "filename": "pred_CY25-05_1-#1.csv",
+        "num_cycles": 58,
+        "initial_capacity": 3.2215689452018244,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.3629710078239441,
+          "MAPE": 1.713095784187317,
+          "MSE": 0.28353622555732727,
+          "RMSE": 0.5324811935424805
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#10.csv",
+        "num_cycles": 59,
+        "initial_capacity": 3.184228211168753,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.20257022976875305,
+          "MAPE": 0.32300734519958496,
+          "MSE": 0.05644030123949051,
+          "RMSE": 0.23757167160511017
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#11.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.198193435727675,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.18894502520561218,
+          "MAPE": 0.35145050287246704,
+          "MSE": 0.05932442471385002,
+          "RMSE": 0.24356605112552643
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#12.csv",
+        "num_cycles": 59,
+        "initial_capacity": 3.150319480493028,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2095407396554947,
+          "MAPE": 0.369514524936676,
+          "MSE": 0.06295078247785568,
+          "RMSE": 0.25089994072914124
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#13.csv",
+        "num_cycles": 119,
+        "initial_capacity": 3.174739073065185,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.15781466662883759,
+          "MAPE": 0.2902672290802002,
+          "MSE": 0.044852107763290405,
+          "RMSE": 0.21178315579891205
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#14.csv",
+        "num_cycles": 13,
+        "initial_capacity": 3.181789708644072,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.10758984088897705,
+          "MAPE": 0.1276804804801941,
+          "MSE": 0.014270558021962643,
+          "RMSE": 0.11945944279432297
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#15.csv",
+        "num_cycles": 90,
+        "initial_capacity": 3.177417494388291,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.16961301863193512,
+          "MAPE": 0.27984631061553955,
+          "MSE": 0.04666086658835411,
+          "RMSE": 0.21601127088069916
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#16.csv",
+        "num_cycles": 100,
+        "initial_capacity": 3.1835468578156183,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.1708504557609558,
+          "MAPE": 0.2932698130607605,
+          "MSE": 0.045149240642786026,
+          "RMSE": 0.2124835103750229
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#17.csv",
+        "num_cycles": 93,
+        "initial_capacity": 3.165984784371474,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.16047394275665283,
+          "MAPE": 0.24823620915412903,
+          "MSE": 0.03990162909030914,
+          "RMSE": 0.19975392520427704
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#18.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.231158799827743,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.36729666590690613,
+          "MAPE": 3.0717709064483643,
+          "MSE": 0.23993250727653503,
+          "RMSE": 0.48982906341552734
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#19.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.230337146608344,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.356559693813324,
+          "MAPE": 3.650514841079712,
+          "MSE": 0.22859317064285278,
+          "RMSE": 0.47811418771743774
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#2.csv",
+        "num_cycles": 52,
+        "initial_capacity": 3.241791395366888,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2810547947883606,
+          "MAPE": 2.02569317817688,
+          "MSE": 0.1692696213722229,
+          "RMSE": 0.4114238917827606
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#20.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.2139149308965416,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.37007415294647217,
+          "MAPE": 1.6155517101287842,
+          "MSE": 0.26746508479118347,
+          "RMSE": 0.517170250415802
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#21.csv",
+        "num_cycles": 54,
+        "initial_capacity": 3.227740680406224,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.503046452999115,
+          "MAPE": 1.7153757810592651,
+          "MSE": 0.501022458076477,
+          "RMSE": 0.7078294157981873
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#22.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.2230527445488844,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2987065017223358,
+          "MAPE": 8.626424789428711,
+          "MSE": 0.16234995424747467,
+          "RMSE": 0.4029267430305481
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#23.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.232310886317277,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.434369832277298,
+          "MAPE": 3.3648762702941895,
+          "MSE": 0.4264484941959381,
+          "RMSE": 0.6530302166938782
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#3.csv",
+        "num_cycles": 56,
+        "initial_capacity": 3.212307439723173,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.41915562748908997,
+          "MAPE": 1.9090077877044678,
+          "MSE": 0.38318178057670593,
+          "RMSE": 0.6190167665481567
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#4.csv",
+        "num_cycles": 55,
+        "initial_capacity": 3.209337399697402,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.3397946059703827,
+          "MAPE": 3.5076565742492676,
+          "MSE": 0.23793616890907288,
+          "RMSE": 0.48778700828552246
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#5.csv",
+        "num_cycles": 136,
+        "initial_capacity": 3.160819004887152,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.14719517529010773,
+          "MAPE": 0.2588486671447754,
+          "MSE": 0.03360436484217644,
+          "RMSE": 0.18331493437290192
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#6.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.2263166266714127,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.3966934382915497,
+          "MAPE": 6.788254737854004,
+          "MSE": 0.2597261369228363,
+          "RMSE": 0.5096333622932434
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#7.csv",
+        "num_cycles": 57,
+        "initial_capacity": 3.224299210168731,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.3490552306175232,
+          "MAPE": 1.675018548965454,
+          "MSE": 0.2556692063808441,
+          "RMSE": 0.5056374073028564
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#8.csv",
+        "num_cycles": 102,
+        "initial_capacity": 3.1554925763833284,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.17827722430229187,
+          "MAPE": 0.4269704222679138,
+          "MSE": 0.05852357670664787,
+          "RMSE": 0.2419164627790451
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#9.csv",
+        "num_cycles": 104,
+        "initial_capacity": 3.159824928705104,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.27123528718948364,
+          "MAPE": 1.0197523832321167,
+          "MSE": 0.16364629566669464,
+          "RMSE": 0.40453219413757324
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#1.csv",
+        "num_cycles": 330,
+        "initial_capacity": 3.206964114897464,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.1950727105140686,
+          "MAPE": 0.6421760320663452,
+          "MSE": 0.09686367958784103,
+          "RMSE": 0.31122931838035583
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#2.csv",
+        "num_cycles": 374,
+        "initial_capacity": 3.237041359743379,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.15907207131385803,
+          "MAPE": 0.5194061398506165,
+          "MSE": 0.06333311647176743,
+          "RMSE": 0.25166070461273193
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#3.csv",
+        "num_cycles": 361,
+        "initial_capacity": 3.2288486946374486,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2061682641506195,
+          "MAPE": 0.9361848831176758,
+          "MSE": 0.1055443286895752,
+          "RMSE": 0.3248758614063263
+        }
+      },
+      {
+        "filename": "pred_CY35-05_1-#4.csv",
+        "num_cycles": 344,
+        "initial_capacity": 3.238334386555041,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.18126827478408813,
+          "MAPE": 0.6955728530883789,
+          "MSE": 0.07479989528656006,
+          "RMSE": 0.27349570393562317
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#1.csv",
+        "num_cycles": 135,
+        "initial_capacity": 3.302975391764726,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.1928178071975708,
+          "MAPE": 0.5272169709205627,
+          "MSE": 0.06627952307462692,
+          "RMSE": 0.25744810700416565
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#10.csv",
+        "num_cycles": 120,
+        "initial_capacity": 3.287121363168403,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2249075472354889,
+          "MAPE": 0.6929901838302612,
+          "MSE": 0.08192238956689835,
+          "RMSE": 0.28622087836265564
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#11.csv",
+        "num_cycles": 240,
+        "initial_capacity": 3.3006949631393767,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.19970054924488068,
+          "MAPE": 0.7212880849838257,
+          "MSE": 0.09686419367790222,
+          "RMSE": 0.3112301230430603
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#12.csv",
+        "num_cycles": 239,
+        "initial_capacity": 3.31453178233873,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.19875727593898773,
+          "MAPE": 0.49950873851776123,
+          "MSE": 0.10942088812589645,
+          "RMSE": 0.3307882845401764
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#13.csv",
+        "num_cycles": 258,
+        "initial_capacity": 3.308108098779028,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.212430939078331,
+          "MAPE": 0.7383512854576111,
+          "MSE": 0.09978090226650238,
+          "RMSE": 0.3158811628818512
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#14.csv",
+        "num_cycles": 259,
+        "initial_capacity": 3.304282585111766,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.18419253826141357,
+          "MAPE": 0.4622313678264618,
+          "MSE": 0.09643510729074478,
+          "RMSE": 0.31054002046585083
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#15.csv",
+        "num_cycles": 113,
+        "initial_capacity": 3.226781745114609,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2077074646949768,
+          "MAPE": 0.38661858439445496,
+          "MSE": 0.06311642378568649,
+          "RMSE": 0.25122982263565063
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#16.csv",
+        "num_cycles": 172,
+        "initial_capacity": 3.230376627634276,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2659164369106293,
+          "MAPE": 0.9431940317153931,
+          "MSE": 0.17402490973472595,
+          "RMSE": 0.4171629250049591
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#17.csv",
+        "num_cycles": 172,
+        "initial_capacity": 3.2372991096210373,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2582460939884186,
+          "MAPE": 0.850182831287384,
+          "MSE": 0.16085103154182434,
+          "RMSE": 0.40106236934661865
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#18.csv",
+        "num_cycles": 171,
+        "initial_capacity": 3.209518574899766,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.27112963795661926,
+          "MAPE": 0.9368252158164978,
+          "MSE": 0.1789843738079071,
+          "RMSE": 0.4230654537677765
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#19.csv",
+        "num_cycles": 231,
+        "initial_capacity": 3.226386020991482,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2644939124584198,
+          "MAPE": 1.736377477645874,
+          "MSE": 0.15835896134376526,
+          "RMSE": 0.3979434072971344
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#2.csv",
+        "num_cycles": 136,
+        "initial_capacity": 3.315642334078639,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.18631811439990997,
+          "MAPE": 0.4500044584274292,
+          "MSE": 0.060553520917892456,
+          "RMSE": 0.24607625603675842
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#20.csv",
+        "num_cycles": 232,
+        "initial_capacity": 3.221967586096055,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.23093204200267792,
+          "MAPE": 0.7117800116539001,
+          "MSE": 0.13187932968139648,
+          "RMSE": 0.3631519377231598
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#21.csv",
+        "num_cycles": 263,
+        "initial_capacity": 3.245020819660374,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.19010040163993835,
+          "MAPE": 0.471556693315506,
+          "MSE": 0.1067769005894661,
+          "RMSE": 0.32676735520362854
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#22.csv",
+        "num_cycles": 250,
+        "initial_capacity": 3.22398061674913,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2794870436191559,
+          "MAPE": 3.2544374465942383,
+          "MSE": 0.16274859011173248,
+          "RMSE": 0.4034211039543152
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#23.csv",
+        "num_cycles": 268,
+        "initial_capacity": 3.222760982294244,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.19549554586410522,
+          "MAPE": 0.6030613780021667,
+          "MSE": 0.09342096745967865,
+          "RMSE": 0.30564844608306885
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#24.csv",
+        "num_cycles": 259,
+        "initial_capacity": 3.226519278736305,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.25565171241760254,
+          "MAPE": 1.0484133958816528,
+          "MSE": 0.13075149059295654,
+          "RMSE": 0.3615957498550415
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#25.csv",
+        "num_cycles": 272,
+        "initial_capacity": 3.248632325847712,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.20755219459533691,
+          "MAPE": 1.002875566482544,
+          "MSE": 0.12058176845312119,
+          "RMSE": 0.3472488522529602
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#26.csv",
+        "num_cycles": 249,
+        "initial_capacity": 3.2270276679866523,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2844431400299072,
+          "MAPE": 1.5762760639190674,
+          "MSE": 0.15676571428775787,
+          "RMSE": 0.3959364891052246
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#27.csv",
+        "num_cycles": 271,
+        "initial_capacity": 3.240405383227813,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.19324815273284912,
+          "MAPE": 0.5976201891899109,
+          "MSE": 0.09831614047288895,
+          "RMSE": 0.313554048538208
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#28.csv",
+        "num_cycles": 258,
+        "initial_capacity": 3.2271354358508253,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.182607963681221,
+          "MAPE": 0.446176141500473,
+          "MSE": 0.097158282995224,
+          "RMSE": 0.3117022216320038
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#3.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.30547204408773,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.37965962290763855,
+          "MAPE": 2.5705199241638184,
+          "MSE": 0.22167600691318512,
+          "RMSE": 0.47082480788230896
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#4.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.290990059401854,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.3817017376422882,
+          "MAPE": 2.1016480922698975,
+          "MSE": 0.253295361995697,
+          "RMSE": 0.5032845735549927
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#5.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.30448738207384,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.2732410728931427,
+          "MAPE": 0.8705236315727234,
+          "MSE": 0.11519553512334824,
+          "RMSE": 0.3394046723842621
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#6.csv",
+        "num_cycles": 60,
+        "initial_capacity": 3.2855021335772023,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.27175387740135193,
+          "MAPE": 1.1044960021972656,
+          "MSE": 0.12025734037160873,
+          "RMSE": 0.3467814028263092
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#7.csv",
+        "num_cycles": 120,
+        "initial_capacity": 3.290826640042043,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.23004131019115448,
+          "MAPE": 0.9202532172203064,
+          "MSE": 0.08708707243204117,
+          "RMSE": 0.2951051890850067
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#8.csv",
+        "num_cycles": 120,
+        "initial_capacity": 3.2989432855767182,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.1547389030456543,
+          "MAPE": 0.2896118760108948,
+          "MSE": 0.040079932659864426,
+          "RMSE": 0.20019973814487457
+        }
+      },
+      {
+        "filename": "pred_CY45-05_1-#9.csv",
+        "num_cycles": 119,
+        "initial_capacity": 3.291689701900094,
+        "pinn_model": "model_TJU_1.pth",
+        "metrics": {
+          "MAE": 0.205710306763649,
+          "MAPE": 0.4130555987358093,
+          "MSE": 0.06438271701335907,
+          "RMSE": 0.25373750925064087
+        }
+      }
+    ],
+    "Dataset_3_NCM_NCA_battery": [
+      {
+        "filename": "pred_CY25-05_1-#1.csv",
+        "num_cycles": 271,
+        "initial_capacity": 2.4434336540252004,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.13406959176063538,
+          "MAPE": 1.3268887996673584,
+          "MSE": 0.03870552033185959,
+          "RMSE": 0.19673718512058258
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#2.csv",
+        "num_cycles": 276,
+        "initial_capacity": 2.442763180572917,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.13197165727615356,
+          "MAPE": 0.5012404918670654,
+          "MSE": 0.03693058714270592,
+          "RMSE": 0.1921733319759369
+        }
+      },
+      {
+        "filename": "pred_CY25-05_1-#3.csv",
+        "num_cycles": 287,
+        "initial_capacity": 2.433982523927137,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.1580410748720169,
+          "MAPE": 1.270901083946228,
+          "MSE": 0.06278938800096512,
+          "RMSE": 0.2505781054496765
+        }
+      },
+      {
+        "filename": "pred_CY25-05_2-#1.csv",
+        "num_cycles": 283,
+        "initial_capacity": 2.425700085231392,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.15020851790905,
+          "MAPE": 1.1465376615524292,
+          "MSE": 0.057892076671123505,
+          "RMSE": 0.24060772359371185
+        }
+      },
+      {
+        "filename": "pred_CY25-05_2-#2.csv",
+        "num_cycles": 276,
+        "initial_capacity": 2.4178222675515406,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.1314585655927658,
+          "MAPE": 0.5627791285514832,
+          "MSE": 0.037395499646663666,
+          "RMSE": 0.19337916374206543
+        }
+      },
+      {
+        "filename": "pred_CY25-05_2-#3.csv",
+        "num_cycles": 296,
+        "initial_capacity": 2.4156253488685446,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.15777096152305603,
+          "MAPE": 4.041228294372559,
+          "MSE": 0.058508485555648804,
+          "RMSE": 0.24188527464866638
+        }
+      },
+      {
+        "filename": "pred_CY25-05_4-#1.csv",
+        "num_cycles": 285,
+        "initial_capacity": 2.456232857093099,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.1499592363834381,
+          "MAPE": 3.8129754066467285,
+          "MSE": 0.05740579962730408,
+          "RMSE": 0.23959507048130035
+        }
+      },
+      {
+        "filename": "pred_CY25-05_4-#2.csv",
+        "num_cycles": 282,
+        "initial_capacity": 2.442285246077472,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.1462813764810562,
+          "MAPE": 1.123884677886963,
+          "MSE": 0.05559000372886658,
+          "RMSE": 0.23577532172203064
+        }
+      },
+      {
+        "filename": "pred_CY25-05_4-#3.csv",
+        "num_cycles": 262,
+        "initial_capacity": 2.447338365367296,
+        "pinn_model": "model_TJU_2.pth",
+        "metrics": {
+          "MAE": 0.12656612694263458,
+          "MAPE": 1.2740983963012695,
+          "MSE": 0.03782527521252632,
+          "RMSE": 0.19448721408843994
+        }
+      }
+    ]
+  }
+}

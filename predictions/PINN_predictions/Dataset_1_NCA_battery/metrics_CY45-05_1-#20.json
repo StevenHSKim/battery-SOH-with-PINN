@@ -1,0 +1,13 @@
+{
+  "filename": "pred_CY45-05_1-#20.csv",
+  "dataset": "Dataset_1_NCA_battery",
+  "num_cycles": 211,
+  "initial_capacity": 3.251549124133168,
+  "pinn_model": "model_TJU_0.pth",
+  "metrics": {
+    "MAE": 0.08344856649637222,
+    "MAPE": 0.10205855220556259,
+    "MSE": 0.011028856039047241,
+    "RMSE": 0.10501836240291595
+  }
+}
