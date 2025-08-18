@@ -1,4 +1,4 @@
-# PINN4SOH
+# E2E framework with LSTM & PINN for battery SOH prediction
 배터리 연구/개발 단계에서 내구시험에 상당한 시간이 소요되는 문제가 존재한다. 
 본 연구에서는 배터리 내구 검사 시간 단축을 위한 LSTM&PINN 기반 배터리 SOH 예측 프레임워크를 제안한다.
 
