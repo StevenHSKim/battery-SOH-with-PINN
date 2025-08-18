@@ -1,9 +1,6 @@
 # PINN4SOH
-This code is for this paper: [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](https://www.nature.com/articles/s41467-024-48779-z)
-
-> [!IMPORTANT]
-Summary of articles using the XJTU Battery Dataset:
-https://github.com/wang-fujin/XJTU-Battery-Dataset-Papers-Summary
+배터리 연구/개발 단계에서 내구시험에 상당한 시간이 소요되는 문제가 존재한다. 
+본 연구에서는 배터리 내구 검사 시간 단축을 위한 LSTM&PINN 기반 배터리 SOH 예측 프레임워크를 제안한다.
 
 # 1. System requirements
 python version: 3.7.10
